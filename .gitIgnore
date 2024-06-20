@@ -1,0 +1,95 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Logs
+logs
+*.log
+yarn-debug.log*
+.yarn-integrity
+
+# Dependency directories
+jspm_packages/
+
+# Output directory
+dist/
+build/
+release-builds/
+out/
+
+# Electron
+electron/dist/
+.electron-vue
+
+# Compiled binary addons (https://github.com/nodejs/node-gyp)
+build/Release
+
+# Binary artifacts
+*.node
+
+# Test coverage
+coverage/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Vscode
+.vscode/
+
+# macOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Ignore the output of packaging tools
+*.dmg
+*.exe
+*.app
+*.msi
+*.deb
+*.rpm
+*.snap
+*.flatpak
+
+# Local environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

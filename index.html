@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Electron Widget</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="draggable-border">
+    <div class="widget-container">
+      <button id="close-button" class="widget-close">X</button>
+      <img src="assets/icons/logo.png" alt="Logo" id="widget-logo" class="widget-logo">
+      
+      <div class="toggle-container">
+        <label class="switch">
+          <input type="checkbox" id="always-on-top-toggle">
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </div>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "electron-js-widget",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "keywords": [],
+  "author": "Daniyal",
+  "license": "ISC",
+  "description": "Daniyal",
+  "dependencies": {
+    "auto-launch": "^5.0.6",
+    "electron-positioner": "^4.1.0",
+    "electron-settings": "^4.0.4"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.60",
+    "@electron-forge/maker-dmg": "^6.0.0-beta.60",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.60",
+    "electron": "^30.0.9"
+  },
+  "config": {
+    "forge": "./forge.config.js"
+  }
+}
